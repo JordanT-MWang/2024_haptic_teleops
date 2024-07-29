@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_speed_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_com_publisher[0m
+[100%] Built target simple_speed_publisher
+[100%] Built target simple_com_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/lib/publisher_speed_test/simple_speed_publisher
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/lib/publisher_speed_test/simple_com_publisher
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test//launch
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test//launch/com_port.launch.py
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test//launch/speed_test.launch.py
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/ament_index/resource_index/package_run_dependencies/publisher_speed_test
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/ament_index/resource_index/parent_prefix_path/publisher_speed_test
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/environment/path.sh
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/environment/path.dsv
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/local_setup.bash
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/local_setup.sh
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/local_setup.zsh
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/local_setup.dsv
+-- Installing: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/package.dsv
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/ament_index/resource_index/packages/publisher_speed_test
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/cmake/publisher_speed_testConfig.cmake
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/cmake/publisher_speed_testConfig-version.cmake
+-- Up-to-date: /home/jordan/ros2_teleops/src/install/publisher_speed_test/share/publisher_speed_test/package.xml

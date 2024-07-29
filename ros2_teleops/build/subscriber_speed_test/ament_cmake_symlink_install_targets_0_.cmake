@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jordan/ros2_teleops/build/subscriber_speed_test/simple_write_subscriber" "TARGETS" "simple_write_subscriber" "DESTINATION" "lib/subscriber_speed_test")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jordan/ros2_teleops/build/publisher_speed_test/simple_speed_publisher" "/home/jordan/ros2_teleops/build/publisher_speed_test/simple_com_publisher" "TARGETS" "simple_speed_publisher" "simple_com_publisher" "DESTINATION" "lib/publisher_speed_test")

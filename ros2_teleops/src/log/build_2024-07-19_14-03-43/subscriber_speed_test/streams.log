@@ -1,0 +1,59 @@
+[0.011s] Invoking command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jordan/ros2_teleops/src/subscriber_speed_test -DCMAKE_INSTALL_PREFIX=/home/jordan/ros2_teleops/src/install/subscriber_speed_test
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.346s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.467s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.543s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.603s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.707s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.800s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.824s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.872s] -- Looking for pthread.h
+[0.939s] -- Looking for pthread.h - found
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.007s] -- Found Threads: TRUE  
+[1.128s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.163s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.227s] -- Added test 'lint_cmake' to check CMake code style
+[1.228s] -- Added test 'xmllint' to check XML markup files
+[1.229s] -- Configuring done
+[1.233s] -- Generating done
+[1.235s] -- Build files have been written to: /home/jordan/ros2_teleops/src/build/subscriber_speed_test
+[1.242s] Invoked command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jordan/ros2_teleops/src/subscriber_speed_test -DCMAKE_INSTALL_PREFIX=/home/jordan/ros2_teleops/src/install/subscriber_speed_test
+[1.243s] Invoking command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/subscriber_speed_test -- -j16 -l16
+[1.278s] Invoked command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/subscriber_speed_test -- -j16 -l16
+[1.306s] Invoking command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/ros2_teleops/src/build/subscriber_speed_test
+[1.312s] -- Install configuration: ""
+[1.312s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/ament_index/resource_index/package_run_dependencies/subscriber_speed_test
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/ament_index/resource_index/parent_prefix_path/subscriber_speed_test
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/environment/ament_prefix_path.sh
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/environment/ament_prefix_path.dsv
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/environment/path.sh
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/environment/path.dsv
+[1.313s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/local_setup.bash
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/local_setup.sh
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/local_setup.zsh
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/local_setup.dsv
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/package.dsv
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/ament_index/resource_index/packages/subscriber_speed_test
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/cmake/subscriber_speed_testConfig.cmake
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/cmake/subscriber_speed_testConfig-version.cmake
+[1.314s] -- Installing: /home/jordan/ros2_teleops/src/install/subscriber_speed_test/share/subscriber_speed_test/package.xml
+[1.317s] Invoked command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jordan/ros2_teleops/src/build/subscriber_speed_test

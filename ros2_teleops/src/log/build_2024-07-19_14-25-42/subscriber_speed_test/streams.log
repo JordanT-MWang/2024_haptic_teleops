@@ -1,0 +1,5 @@
+[0.010s] Invoking command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/subscriber_speed_test -- -j16 -l16
+[0.051s] gmake[2]: *** No rule to make target 'CMakeFiles/simple_write_subscriber.dir/build'.  Stop.
+[0.051s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_write_subscriber.dir/all] Error 2
+[0.052s] gmake: *** [Makefile:146: all] Error 2
+[0.054s] Invoked command in '/home/jordan/ros2_teleops/src/build/subscriber_speed_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/subscriber_speed_test -- -j16 -l16

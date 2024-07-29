@@ -1,0 +1,5 @@
+[0.014s] Invoking command in '/home/jordan/ros2_teleops/src/build/publisher_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/publisher_speed_test -- -j16 -l16
+[0.067s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_com_publisher.dir/src/com_port_test.cpp.o[0m
+[0.068s] [ 75%] Built target simple_speed_publisher
+[3.282s] [100%] [32m[1mLinking CXX executable simple_com_publisher[0m
+[3.421s] [100%] Built target simple_com_publisher

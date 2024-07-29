@@ -1,0 +1,4 @@
+[0.010s] Invoking command in '/home/jordan/ros2_teleops/src/build/publisher_speed_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/publisher_speed_test -- -j16 -l16
+[0.067s] [ 50%] Built target simple_com_publisher
+[0.068s] [100%] Built target simple_speed_publisher
+[0.078s] Invoked command in '/home/jordan/ros2_teleops/src/build/publisher_speed_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jordan/ros2_teleops/src/build/publisher_speed_test -- -j16 -l16

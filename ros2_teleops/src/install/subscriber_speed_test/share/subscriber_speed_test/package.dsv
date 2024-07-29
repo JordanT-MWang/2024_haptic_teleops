@@ -1,0 +1,8 @@
+source;share/subscriber_speed_test/hook/cmake_prefix_path.ps1
+source;share/subscriber_speed_test/hook/cmake_prefix_path.dsv
+source;share/subscriber_speed_test/hook/cmake_prefix_path.sh
+source;share/subscriber_speed_test/local_setup.bash
+source;share/subscriber_speed_test/local_setup.dsv
+source;share/subscriber_speed_test/local_setup.ps1
+source;share/subscriber_speed_test/local_setup.sh
+source;share/subscriber_speed_test/local_setup.zsh

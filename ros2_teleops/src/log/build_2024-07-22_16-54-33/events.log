@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000632] (PD_pkg) JobQueued: {'identifier': 'PD_pkg', 'dependencies': OrderedDict()}
+[0.000709] (comport) JobQueued: {'identifier': 'comport', 'dependencies': OrderedDict()}
+[0.000738] (publisher_speed_test) JobQueued: {'identifier': 'publisher_speed_test', 'dependencies': OrderedDict()}
+[0.000774] (subscriber_speed_test) JobQueued: {'identifier': 'subscriber_speed_test', 'dependencies': OrderedDict()}
+[0.000810] (PD_pkg) JobStarted: {'identifier': 'PD_pkg'}
+[0.005009] (comport) JobStarted: {'identifier': 'comport'}
+[0.007510] (publisher_speed_test) JobStarted: {'identifier': 'publisher_speed_test'}
+[0.010104] (subscriber_speed_test) JobStarted: {'identifier': 'subscriber_speed_test'}
+[0.014862] (PD_pkg) JobProgress: {'identifier': 'PD_pkg', 'progress': 'cmake'}
+[0.015153] (PD_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/jordan/ros2_teleops/src/PD_pkg', '-DCMAKE_INSTALL_PREFIX=/home/jordan/ros2_teleops/src/install/PD_pkg'], 'cwd': '/home/jordan/ros2_teleops/src/build/PD_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jordan'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jordan/ros2_teleops'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '124810'), ('COLCON_PREFIX_PATH', '/home/jordan/ros2_teleops/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jordan'), ('JOURNAL_STREAM', '8:38205'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jordan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jordan/.local/bin:/opt/ros/humble/bin:/home/jordan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jordan-Unbuntu-22:@/tmp/.ICE-unix/1777,unix/jordan-Unbuntu-22:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', '2905ff6a1eb048f4978a0e29175f58de'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0054b70579.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jordan/ros2_teleops/src/build/PD_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble')]), 'shell': False}
+[0.017691] (comport) JobProgress: {'identifier': 'comport', 'progress': 'cmake'}
+[0.017791] (comport) Command: {'cmd': ['/usr/bin/cmake', '/home/jordan/ros2_teleops/src/comport', '-DCMAKE_INSTALL_PREFIX=/home/jordan/ros2_teleops/src/install/comport'], 'cwd': '/home/jordan/ros2_teleops/src/build/comport', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jordan'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jordan/ros2_teleops'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '124810'), ('COLCON_PREFIX_PATH', '/home/jordan/ros2_teleops/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jordan'), ('JOURNAL_STREAM', '8:38205'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jordan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jordan/.local/bin:/opt/ros/humble/bin:/home/jordan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jordan-Unbuntu-22:@/tmp/.ICE-unix/1777,unix/jordan-Unbuntu-22:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', '2905ff6a1eb048f4978a0e29175f58de'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0054b70579.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jordan/ros2_teleops/src/build/comport'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble')]), 'shell': False}
+[0.018746] (publisher_speed_test) JobProgress: {'identifier': 'publisher_speed_test', 'progress': 'cmake'}
+[0.019185] (publisher_speed_test) JobProgress: {'identifier': 'publisher_speed_test', 'progress': 'build'}
+[0.019895] (publisher_speed_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/ros2_teleops/src/build/publisher_speed_test', '--', '-j16', '-l16'], 'cwd': '/home/jordan/ros2_teleops/src/build/publisher_speed_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jordan'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jordan/ros2_teleops'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '124810'), ('COLCON_PREFIX_PATH', '/home/jordan/ros2_teleops/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jordan'), ('JOURNAL_STREAM', '8:38205'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jordan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jordan/.local/bin:/opt/ros/humble/bin:/home/jordan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jordan-Unbuntu-22:@/tmp/.ICE-unix/1777,unix/jordan-Unbuntu-22:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', '2905ff6a1eb048f4978a0e29175f58de'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0054b70579.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jordan/ros2_teleops/src/build/publisher_speed_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble')]), 'shell': False}
+[0.023174] (subscriber_speed_test) JobProgress: {'identifier': 'subscriber_speed_test', 'progress': 'cmake'}
+[0.023839] (subscriber_speed_test) JobProgress: {'identifier': 'subscriber_speed_test', 'progress': 'build'}
+[0.024038] (subscriber_speed_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jordan/ros2_teleops/src/build/subscriber_speed_test', '--', '-j16', '-l16'], 'cwd': '/home/jordan/ros2_teleops/src/build/subscriber_speed_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jordan'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jordan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jordan/ros2_teleops'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '124810'), ('COLCON_PREFIX_PATH', '/home/jordan/ros2_teleops/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jordan'), ('JOURNAL_STREAM', '8:38205'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jordan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jordan/.local/bin:/opt/ros/humble/bin:/home/jordan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jordan-Unbuntu-22:@/tmp/.ICE-unix/1777,unix/jordan-Unbuntu-22:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', '2905ff6a1eb048f4978a0e29175f58de'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0054b70579.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jordan/ros2_teleops/src/build/subscriber_speed_test'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jordan/ros2_teleops/install/subscriber_speed_test:/home/jordan/ros2_teleops/install/publisher_speed_test:/home/jordan/ros2_teleops/install/comport:/opt/ros/humble')]), 'shell': False}
+[0.064786] (subscriber_speed_test) StderrLine: {'line': b"gmake[2]: *** No rule to make target 'CMakeFiles/simple_write_subscriber.dir/build'.  Stop.\n"}
+[0.065015] (subscriber_speed_test) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_write_subscriber.dir/all] Error 2\n'}
+[0.065142] (subscriber_speed_test) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.067235] (subscriber_speed_test) CommandEnded: {'returncode': 2}
+[0.074992] (publisher_speed_test) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/simple_com_publisher.dir/src/com_port_test.cpp.o\x1b[0m\n'}
+[0.075216] (publisher_speed_test) StdoutLine: {'line': b'[ 75%] Built target simple_speed_publisher\n'}
+[0.090978] (comport) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091670] (PD_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.095023] (subscriber_speed_test) JobEnded: {'identifier': 'subscriber_speed_test', 'rc': 2}
+[0.099792] (-) TimerEvent: {}
+[0.138684] (PD_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.139016] (comport) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.146804] (PD_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.147020] (comport) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199907] (-) TimerEvent: {}
+[0.207055] (comport) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.207420] (PD_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.211962] (comport) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.212274] (comport) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.212376] (PD_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.212524] (PD_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.212670] (comport) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.212792] (PD_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.215260] (PD_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.215357] (comport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.283783] (comport) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.283958] (PD_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.288866] (PD_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.289084] (comport) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.289167] (PD_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289221] (comport) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289327] (PD_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.289403] (comport) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293161] (comport) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.293338] (PD_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299970] (-) TimerEvent: {}
+[0.400231] (-) TimerEvent: {}
+[0.416393] (PD_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.416672] (comport) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499888] (comport) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500297] (-) TimerEvent: {}
+[0.505299] (PD_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.543242] (PD_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.543494] (comport) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.548115] (comport) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.548230] (PD_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.556652] (comport) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.556821] (PD_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.569722] (comport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.569913] (PD_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.586950] (comport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.587134] (PD_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600385] (-) TimerEvent: {}
+[0.646895] (PD_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.647078] (comport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.649739] (PD_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.649862] (comport) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700497] (-) TimerEvent: {}
+[0.746911] (PD_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.747145] (comport) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.770276] (comport) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.770526] (PD_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800593] (-) TimerEvent: {}
+[0.811439] (comport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.811682] (PD_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.821604] (comport) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.821810] (PD_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.883800] (comport) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.883985] (PD_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.884136] (PD_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.884268] (comport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900711] (-) TimerEvent: {}
+[0.949622] (PD_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.949843] (comport) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.950427] (PD_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.950572] (comport) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000804] (-) TimerEvent: {}
+[1.072211] (comport) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.072451] (PD_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.100903] (-) TimerEvent: {}
+[1.106065] (comport) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.106312] (PD_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.146360] (PD_pkg) StderrLine: {'line': b'WARNING: Package name "PD_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.191660] (PD_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.191831] (PD_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.191901] (PD_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.192324] (comport) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.192555] (PD_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.192646] (comport) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.192712] (comport) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.192851] (comport) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.193353] (comport) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.193521] (PD_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.193631] (PD_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.193952] (comport) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.194089] (PD_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.194986] (comport) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.195103] (comport) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.195255] (PD_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.195511] (comport) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.196649] (comport) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.199072] (comport) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:24 (add_executable):\n'}
+[1.199239] (comport) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[1.199326] (comport) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[1.199407] (comport) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.199484] (comport) StderrLine: {'line': b'\n'}
+[1.199593] (comport) StderrLine: {'line': b'  File:\n'}
+[1.199672] (comport) StderrLine: {'line': b'\n'}
+[1.199748] (comport) StderrLine: {'line': b'    /home/jordan/ros2_teleops/src/comport/src/read_write_com.cpp\n'}
+[1.199833] (comport) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.199908] (comport) StderrLine: {'line': b'\x1b[0m\n'}
+[1.199983] (PD_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.200181] (comport) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):\n'}
+[1.200313] (comport) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[1.200403] (comport) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[1.200478] (comport) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.200552] (comport) StderrLine: {'line': b'\n'}
+[1.200628] (comport) StderrLine: {'line': b'  File:\n'}
+[1.200706] (comport) StderrLine: {'line': b'\n'}
+[1.200802] (comport) StderrLine: {'line': b'    /home/jordan/ros2_teleops/src/comport/src/read_com.cpp\n'}
+[1.200888] (-) TimerEvent: {}
+[1.201013] (comport) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.201100] (comport) StderrLine: {'line': b'\x1b[0m\n'}
+[1.201184] (comport) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:30 (add_executable):\n'}
+[1.201259] (comport) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[1.201339] (comport) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[1.201417] (comport) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.201487] (comport) StderrLine: {'line': b'\n'}
+[1.201563] (comport) StderrLine: {'line': b'  File:\n'}
+[1.201638] (comport) StderrLine: {'line': b'\n'}
+[1.201717] (comport) StderrLine: {'line': b'    /home/jordan/ros2_teleops/src/comport/src/write_com.cpp\n'}
+[1.201796] (comport) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.201880] (comport) StderrLine: {'line': b'\x1b[0m\n'}
+[1.201963] (PD_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/ros2_teleops/src/build/PD_pkg\n'}
+[1.209870] (PD_pkg) JobEnded: {'identifier': 'PD_pkg', 'rc': 'SIGINT'}
+[1.210915] (comport) StdoutLine: {'line': b'-- Generating done\n'}
+[1.212905] (comport) StdoutLine: {'line': b'-- Build files have been written to: /home/jordan/ros2_teleops/src/build/comport\n'}
+[1.222082] (comport) JobEnded: {'identifier': 'comport', 'rc': 'SIGINT'}
+[1.301006] (-) TimerEvent: {}
+[1.401293] (-) TimerEvent: {}
+[1.501581] (-) TimerEvent: {}
+[1.601861] (-) TimerEvent: {}
+[1.702119] (-) TimerEvent: {}
+[1.802390] (-) TimerEvent: {}
+[1.902686] (-) TimerEvent: {}
+[2.002971] (-) TimerEvent: {}
+[2.103258] (-) TimerEvent: {}
+[2.203520] (-) TimerEvent: {}
+[2.303794] (-) TimerEvent: {}
+[2.404084] (-) TimerEvent: {}
+[2.504365] (-) TimerEvent: {}
+[2.604640] (-) TimerEvent: {}
+[2.704905] (-) TimerEvent: {}
+[2.805181] (-) TimerEvent: {}
+[2.905461] (-) TimerEvent: {}
+[3.005741] (-) TimerEvent: {}
+[3.106028] (-) TimerEvent: {}
+[3.206305] (-) TimerEvent: {}
+[3.289151] (publisher_speed_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_com_publisher\x1b[0m\n'}
+[3.306418] (-) TimerEvent: {}
+[3.406694] (-) TimerEvent: {}
+[3.428134] (publisher_speed_test) StdoutLine: {'line': b'[100%] Built target simple_com_publisher\n'}
+[3.439868] (publisher_speed_test) JobEnded: {'identifier': 'publisher_speed_test', 'rc': 'SIGINT'}
+[3.450592] (-) EventReactorShutdown: {}

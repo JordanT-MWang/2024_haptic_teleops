@@ -1,0 +1,1 @@
+Invoking command in '/home/jordan/ros2_teleops/src/build/PD_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jordan/ros2_teleops/src/PD_pkg -DCMAKE_INSTALL_PREFIX=/home/jordan/ros2_teleops/src/install/PD_pkg

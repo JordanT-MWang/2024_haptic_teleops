@@ -1,0 +1,4 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_com_publisher.dir/src/com_port_test.cpp.o[0m
+[ 75%] Built target simple_speed_publisher
+[100%] [32m[1mLinking CXX executable simple_com_publisher[0m
+[100%] Built target simple_com_publisher
